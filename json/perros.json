@@ -1,0 +1,73 @@
+[
+    {
+        "producto": "Alimento Excellent",
+        "precio": 12433,
+        "imagen":"https://mla-s1-p.mlstatic.com/971597-MLA40413452034_012020-F.jpg",
+        "descripcion": "Pollo y arroz para perros adultos. 20 KG",
+        "codigo": 1254
+    },
+    {
+        "producto": "Alimento Pedigree",
+        "precio": 11020,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_789053-MLA53778624953_022023-O.jpg",
+        "descripcion": "Carne, pollo y cereales para perros adultos. 21 KG",
+        "codigo": 2874
+    },
+    {
+        "producto": "Alimento Sieger",
+        "precio": 4069,
+        "imagen":"https://nutrican.com.ar/wp-content/uploads/2022/09/SIEGER-PUPPY-SMALL.png",
+        "descripcion": "Contiene proteíanas, vitaminas y minerales para perros de razas pequeñas. 3 KG",
+        "codigo": 3658
+    },
+    {
+        "producto": "Dog Selection",
+        "precio": 14558,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_800807-MLA41592773146_042020-O.webp",
+        "descripcion": "Carne y pollo con altos valores de proteínas para perros de razas pequeñas. 15 KG",
+        "codigo": 4115
+    },
+    {
+        "producto": "Alimento Sabrositos",
+        "precio": 6854,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_676556-MLA47004639916_082021-O.webp",
+        "descripcion": "Carne, cereales y vegetales para perros medianos. 20 KG",
+        "codigo": 5569
+    },
+    {
+        "producto": "Alimento Pro Plan",
+        "precio": 11470,
+        "imagen":"https://faunatown.com.ar/wp-content/uploads/2021/07/5-6-300x300.png",
+        "descripcion": "Carne con alto valores de proteínas para razas pequeñas. 12 KG",
+        "codigo": 6011
+    },
+    {
+        "producto": "Alimento Royal Canin",
+        "precio": 55100,
+        "imagen":"https://www.timberline.com.ar/3044-home_default/royal-canin-mini-puppy.jpg",
+        "descripcion": "Nutrition Mini junior para cachorros, sabor mix. 7.5 KG",
+        "codigo": 7447
+    },
+    {
+        "producto": "Plato para alimentos",
+        "precio": 680,
+        "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1iOPLhqZjqW1xF72j8Qu1xPIWXv36D_CLvV3ArvuuRj7xeNXTts7s-WuQ9dfLreURLhM&usqp=CAU",
+        "descripcion": "Material de acero",
+        "codigo": 8544
+    },
+    {
+        "producto": "Anillo dispensador",
+        "precio": 1500,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_765932-MLA40315074537_012020-O.webp",
+        "descripcion": "Jugar reduce el estrés de tu mascota. Con dispensador de Snacks",
+        "codigo":9888
+    },
+    {
+        "producto": "Juguete pelota",
+        "precio": 6050,
+        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/880/994/products/proyecto-nuevo-2023-01-13t140247-0801-335eaad0d11ffec51116736297631280-480-0.webp",
+        "descripcion": "Resistente con mango",
+        "codigo":1004
+    }
+    
+]

@@ -10,6 +10,11 @@
     <!-- Link de css-->
     <link rel="stylesheet" href="../estilos.css">
     <!-- Link de tipografias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&family=DynaPuff:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <!-- NOMBRE DE PAG-->
     <title>Peluditos-Gatos</title>
 </head>
@@ -23,19 +28,26 @@
                     <a href="../index.html"><img class="logo-para-menu" src="../img/logo1.png" alt=""><a></a>
                 </div>
                 <div>
-                    <a href="../index.html">Inicio </a>
-                    <a href="../pag/perros.html">Perros </a>
-                    <a href="../pag/gatos.html">Gatos </a>
-                    <a href="../pag/peluqueria.html">Peluqueria </a>
-                    <a href="../pag/contacto.html">Contacto </a>
+                    <a class="menu-nav-icon" href="../index.html">Inicio </a>
+                    <a class="menu-nav-icon" href="../pag/perros.html">Perros </a>
+                    <a class="menu-nav-icon" href="../pag/gatos.html">Gatos </a>
+                    <a class="menu-nav-icon" href="../pag/peluqueria.html">Peluqueria </a>
                 </div>
             </div>
         </nav>
     </header>
     <!-- CUERPO-->
+    <section class="portada-gato">
+        <img class="img-contenedor color-azul" src="../img/portada-gatos.jpg" alt="">
+        <h1 class="portada-texto">GATOS</h1>
+    </section>
+    <section>
+        <div class="card-general" id="gatos">
+        </div>
+    </section>
     <!-- PIE DE PAG-->
     <footer>
-        <section class="menu-nav">
+        <section class="menu-fin">
             <div class="menu-fin">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="60"
                     height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00447c" fill="none"
@@ -87,6 +99,8 @@
             </div>
         </section>
     </footer>
+    <!-- JS -->
+    <script src="../js/api.gatos.js"></script>
 </body>
 
 </html>

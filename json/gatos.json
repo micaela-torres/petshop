@@ -1,0 +1,72 @@
+[
+    {
+        "producto": "Alimento Excellent",
+        "precio": 21500,
+        "imagen":"https://cdn.shopify.com/s/files/1/0550/6252/8170/products/RenderFRENTEEXCELLENTCATADULT_9f9ee33a-f204-4a31-b5f5-cb51b21e1158_1024x.jpg?v=1671713833",
+        "descripcion": "Pollo y Arroz para gato adultos. 7 KG",
+        "codigo": 1458 
+    },
+    {
+        "producto": "Alimento Gati",
+        "precio": 17800,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_721194-MLA47774933442_102021-O.jpg",
+        "descripcion": "Pescado, arroz y espinaca para gatos medianos. 15 KG",
+        "codigo": 2214 
+    },
+    {
+        "producto": "Alimento Whiskas",
+        "precio": 10100,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_909113-MLA54438424494_032023-O.jpg",
+        "descripcion": "Mix de carne, alimento seca para gato castrado. 10 KG",
+        "codigo": 3365
+    },
+    {
+        "producto": "Alimento Sabrositos",
+        "precio": 1250,
+        "imagen":"https://d3ugyf2ht6aenh.cloudfront.net/stores/798/865/products/73990797-e7c6f47ba73d6fd15f16637357057734-640-0.webp",
+        "descripcion": "Pescado para gatos adultos. 1 KG",
+        "codigo": 4985
+    },
+    {
+        "producto": "Alimento Cat Chow",
+        "precio": 15740,
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_872522-MLA46319077382_062021-O.webp",
+        "descripcion": "Pescado, defense plus esterilizados para gatos adultos. 15 KG",
+        "codigo": 5500
+    },
+    {
+        "producto": "Alimento Pets Class",
+        "precio": 200,
+        "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/161659/7798139796675_02.jpg?v=637467658727200000",
+        "descripcion": "Alimento humedo sabor carne. 85 G",
+        "codigo": 6325 
+    },
+    {
+        "producto": "Alimento Royal Canin",
+        "precio": 250,
+        "imagen":"https://cdn.royalcanin-weshare-online.io/QFbyB38BBKJuub5qntY1/v27/rc-spt-wet-kittenster-cig-mv-3-es-es",
+        "descripcion": "Alimento humedo para gatos de 6 a 12 meses. 85 G",
+        "codigo": 7541 
+    },
+    {
+        "producto": "Comedor para gatos",
+        "precio": 7800,
+        "imagen":"https://i.pinimg.com/originals/43/00/84/4300840eed9365a345aec17caeb47d83.jpg",
+        "descripcion": "Tazones de acero para alimento y bebida. Con pie de madera",
+        "codigo": 8850
+    },
+    {
+        "producto": "Poste Rascador",
+        "precio": 6500,
+        "imagen":"https://static.miscota.com/media/1/photos/products/043658/PHO-PRO-CAT-CLIP-43332-1-6213882310258_g.jpg",
+        "descripcion": "Color gris",
+        "codigo": 9665 
+    },
+    {
+        "producto": "Juguetes para Gatos",
+        "precio": 2800,
+        "imagen":"https://www.dhresource.com/0x0/f2/albu/g9/M00/19/58/rBVaVV0u87qAUwz6AAIvSOY3QT4489.jpg/1-2pcs-funny-cat-toys-plushteaser-pet-cat.jpg",
+        "descripcion": "Trae 2 unidades",
+        "codigo": 1024
+    }
+]

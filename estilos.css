@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Domine', serif;
+    font-family: 'DynaPuff', cursive;
 }
 h1{
     Font-weight: bold;
@@ -16,6 +16,8 @@ h2{
     Font-weight: bold;
     font-size: 35px;
     text-align: center;
+    color: #00447c;
+    margin-top: 3rem;
 }
 
 /* PACK GENERALES*/
@@ -32,6 +34,9 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.menu-nav-icon{
+    margin-left: 5rem;
 }
 /* CUERPO INDEX */
 
@@ -174,8 +179,120 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 2rem;
 }
 
+/* PERROS */
+
+.portada-perro{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #00447c;
+}
+
+.portada-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.color-azul{
+    opacity: 20%;
+}
+
+.portada-gato {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #00b0be;
+}
+
+/* TARJETAS*/
+.card-general{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-luces{
+    width: 380px;
+    height: 508px;
+    margin: 3rem 2rem 3rem 2rem;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+.card-img{
+    width: auto;
+    height: 254px;
+    margin: 0rem 20rem 0rem 2rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-2 {
+    width: 380px;
+    height: 508px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    transition: all .2s;
+}
+
+.card-2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.card-luces:hover {
+    box-shadow: 0px 0px 30px 10px rgba(0,255,117,0.30);
+}
+
+/* FORMATO TABLET */
+
+@media (max-width: 1280px){
+    .marcas-card{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100px 100px 100px;
+    }
+    .logo-para-presentacion{
+        width: 250px;
+        height: 100%;
+        margin-left: 100px;
+    }
+    .menu-nav-icon{
+        margin-left: 3rem;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .contenedor {
+        margin: 2rem 7rem 2rem 7rem; 
+    }
+}
+
+@media (max-width: 780px) {
+    .marcas-card {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 100px 100px;
+    }
+    .logo-para-presentacion {
+        width: 200px;
+        height: 100%;
+        margin-left: 60px;
+    }
+    .menu-nav-icon {
+        margin-left: 1rem;
+    }
+    .contenedor {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    .menu-fin{
+        flex-direction: column;
+    }
+}
+    
 

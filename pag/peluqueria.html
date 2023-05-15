@@ -12,6 +12,11 @@
     <!-- Link de css-->
     <link rel="stylesheet" href="../estilos.css">
     <!-- Link de tipografias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&family=DynaPuff:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <!-- NOMBRE DE PAG-->
     <title>Peluditos-Peluqueria</title>
 </head>
@@ -24,60 +29,97 @@
                 <div>
                     <a href="../index.html"><img class="logo-para-menu" src="../img/logo1.png" alt=""><a></a>
                 </div>
-                <div>
-                    <a href="../index.html">Inicio </a>
-                    <a href="../pag/perros.html">Perros </a>
-                    <a href="../pag/gatos.html">Gatos </a>
-                    <a href="../pag/peluqueria.html">Peluqueria </a>
-                    <a href="../pag/contacto.html">Contacto </a>
+                <div class="menu-nav-icon">
+                    <a class="menu-nav-icon" href="../index.html">Inicio </a>
+                    <a class="menu-nav-icon" href="../pag/perros.html">Perros </a>
+                    <a class="menu-nav-icon" href="../pag/gatos.html">Gatos </a>
+                    <a class="menu-nav-icon" href="../pag/peluqueria.html">Peluqueria </a>
                 </div>
             </div>
         </nav>
     </header>
     <!-- CUERPO-->
     <main>
+        <section class="portada-gato">
+            <img class="img-contenedor color-azul" src="../img/portada-gatos-perros.jpg" alt="">
+            <h1 class="portada-texto">PELUQUERIA</h1>
+        </section>
         <section>
             <div>
-                <h1>Peluqueria</h1>
+                <h1>Reserva tu turno</h1>
             </div>
-            <div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre del dueño</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form class="container mb-3" id="formulario" onsubmit="return validarFormulario()" class="mt-3 g-3 row" action="">
+            
+                <div class="form-group row-sm-3">
+                    <label for="nombre" class="form-label">Nombre del dueño</label>
+                    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre de la mascota</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+                <div class="form-group row-sm-3">
+                    <label for="nombremascota" class="form-label">Nombre de la mascota</label>
+                    <input class="form-control" type="text" name="nombremascota" id="nombremascota" placeholder="Ingrese nombre de la mascota">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Raza</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div>
+                    <div class="form-group row-sm-3">
+                        <label for="tipodemascota" class="form-label">Tu mascota es:</label>
+                        <select name="tipodemascota" id="tipodemascota" class="form-select form-select-m"
+                            aria-label=".form-select-lg example" required>
+                            <option selected></option>
+                            <option value="1">Perro +35kg</option>
+                            <option value="2">Perro de 25 a 35kg</option>
+                            <option value="3">Perro de 10 a 24g</option>
+                            <option value="4">Perro de 4 a 10kg</option>
+                            <option value="5">Perro hasta 4kg</option>
+                            <option value="2">Gato</option>
+                        </select>
+                    </div>
+            
                 </div>
-    
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                    <option selected>Tu mascota es:</option>
-                    <option value="1">Perro</option>
-                    <option value="2">Gato</option>
-                </select>
-    
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                    <option selected>Servicio a realizar</option>
-                    <option value="1">Baño</option>
-                    <option value="2">Baño y corte de pelo</option>
-                    <option value="3">Corte de uña</option>
-                    <option value="4">Completo</option>
-                </select>
-            </div>
-            <div>
-                <h4>Calendario</h4>
-                <!-- API DE CALENDARIO-->
-            </div>
-    
+                <div class="form-group row-sm-3">
+                    <label for="raza" class="form-label">Raza</label>
+                    <input type="text" class="form-control" id="raza" placeholder="Ingrese la raza de la mascota">
+                </div>
+            
+                <div>
+                    <div class="form-group row-sm-3">
+                        <label for="servicio" class="form-label">Servicio a realizar:</label>
+                        <select name="servicio" id="servicio" class="form-select form-select-m"
+                            aria-label=".form-select-lg example">
+                            <option selected></option>
+                            <option value="1">Baño</option>
+                            <option value="2">Baño y corte de pelo</option>
+                            <option value="3">Corte de uña</option>
+                            <option value="4">Completo</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="row g-2">
+                    <div class="form-group row-sm-3">
+                        <label class="form-label" for="tel">Teléfono</label>
+                        <input class="form-control" type="text" name="tel" id="tel" placeholder="Ingrese su telefono">
+                    </div>
+                </div>
+            
+                <div class="row g-2">
+                    <div class="form-group row-sm-3">
+                        <label class="form-label" for="email">Correo electrónico</label>
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Ingrese su email">
+                    </div>
+                </div>
+            
+                <div class="row mt-3">
+                    <div class="d-grid gap-2 row-4 mx-auto mb-2">
+                        <input class="btn btn-danger " type="submit" value="Enviar">
+                    </div>
+                </div>
+            
+            </form>
         </section>
     </main>
     <!-- PIE DE PAG-->
     <footer>
-        <section class="menu-nav">
+        <section class="menu-fin">
             <div class="menu-fin">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="60"
                     height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00447c" fill="none"
@@ -129,6 +171,8 @@
             </div>
         </section>
     </footer>
+    <!-- JS -->
+    <script src="../js/validacion.js"></script>
 </body>
 
 </html>
