@@ -148,7 +148,7 @@ h2{
     content: '';
     position: absolute;
     width: 150px;
-    background-image: linear-gradient(180deg, #c1ff16, #be00a5);
+    background-image: linear-gradient(180deg, #00ff75, #3700ff);
     height: 400%;
     animation: rotBGimg 6s linear infinite;
     transition: all 0.2s linear;
@@ -171,6 +171,24 @@ h2{
     ;
     inset: 5px;
     border-radius: 15px;
+}
+/* IFRAME */
+
+iframe {
+    width: auto;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.sucursales {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.separaciones{
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* PIE DE PAG*/
